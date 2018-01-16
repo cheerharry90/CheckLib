@@ -1,0 +1,52 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Wilddog/Public (2.3.11):
+    - WilddogCore (~> 2.0.11)
+  - Wilddog/Sync (2.3.11):
+    - Wilddog/Public
+    - WilddogSync (~> 2.3.11)
+  - WilddogAuth (2.0.7):
+    - WilddogCore (~> 2.0.2)
+  - WilddogCore (2.0.11)
+  - WilddogSync (2.3.13):
+    - WilddogCore (~> 2.0.11)
+  - WilddogVideoBase (2.4.0):
+    - WilddogCore (~> 2.0.11)
+    - WilddogWebRTC (~> 63.0.0)
+  - WilddogVideoRoom (2.3.0):
+    - WilddogAuth (>= 2.0.2)
+    - WilddogVideoBase (~> 2.4.0)
+  - WilddogWebRTC (63.0.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Wilddog/Sync
+  - WilddogVideoRoom
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Wilddog: 03b942bfb47929f5bc41d1988157abfb843fb42d
+  WilddogAuth: 6c5f364277547490eed7e5a5c955b45e544e8ebf
+  WilddogCore: 515371b98a3298ced567033df3348f9f0e3b2dc0
+  WilddogSync: 914186301d52b3b499ede2629a0ae46b0b0586c6
+  WilddogVideoBase: ea17a5b6c5d0a86adfa2f4c3e9daacb44cb4f048
+  WilddogVideoRoom: 6dd5f9f34173161ce670800a587197ba99b4c591
+  WilddogWebRTC: 5c7a6c98c5672eb90e833546311f34ce3c34c88c
+
+PODFILE CHECKSUM: 8075b06e1fde1004dc162ad67c68ed223fb049a0
+
+COCOAPODS: 1.2.1

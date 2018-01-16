@@ -1,0 +1,6 @@
+framework module ZCBLSDK {
+  umbrella header "ZCBLSDK.h"
+
+  export *
+  module * { export * }
+}
